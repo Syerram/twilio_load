@@ -14,6 +14,7 @@ $ ./tw_load -f ./tw_load.ini -d ./tw_data.ini
 
 Once completed, it will print the results of the load testing along with costs of sending/receiving messages (sample response below)
 
+```
 Benchmarking http://127.0.0.1:5000/sms (be patient).....
 Done!
 Document Path:        http://127.0.0.1:5000/sms
