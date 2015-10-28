@@ -25,19 +25,20 @@ Failed requests:      0
 Total time:           2.15083s
 Time per request:     10.691935ms
 -----------------------------------
-Total recv:       1000
-Total sent        1000
-Approx cost:      $15.00
+Total recv:           1000
+Total sent            1000
+Approx cost:          $15.00
 
 ```
 
 ###Config INI
-Contains information such as account token, load factors
+Contains information such as account token, load factors. Check ini files for more documentation.
 
 ###Data INI
-Contains data that needs to be sent to the endpoint. 
+Contains data that needs to be sent to the endpoint. Check ini files for more documentation. 
 
+###Tests
+To run tests, make a copy of the sample ini files and then adjust values. Then run `go test -v` 
 
 ###TODO
 - Remove the data ini file and instead choose a simple file format (txt) by having each line as a json data row. We can then distribute data across the requests
-- Expand unit tests to cover edge cases
